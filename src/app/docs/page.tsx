@@ -12,10 +12,16 @@ function Docs() {
     <>
       <NavBar />
       <div className="max-w-4xl mx-auto px-6 py-10 text-zinc-800">
+        <section className="bg-gradient-to-r from-indigo-50 to-white/60 border-t-4 border-indigo-600 rounded-xl shadow-lg p-8 md:p-12 text-center mb-12">
+          <h1 className="text-5xl md:text-6xl font-extrabold text-indigo-800 mb-4 tracking-tight">
+            ✨ Documentación del editor zafiro.
+          </h1>
+          <p className="text-xl text-indigo-700 mb-8 max-w-2xl mx-auto">
+            Aprende sobre este editor, a continuación podras aprender como instalarlos en sistemas linux y su funcionamiento.
+          </p>
+        </section>
+
         <section className="mb-12">
-          <h2 className="text-4xl font-extrabold mb-6 text-zinc-600 border-b border-zinc-200 pb-2">
-            Introducción a Zafiro Editor
-          </h2>
           <Accordion
             type="single"
             collapsible
@@ -254,6 +260,43 @@ function Docs() {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
+        </section>
+        <section className="mb-12">
+          <h2 className="text-4xl font-extrabold mb-6 text-zinc-600 border-b border-zinc-200 pb-2">
+            Personalización.
+          </h2>
+          <Accordion type="single" collapsible className="bg-white border border-zinc-200 rounded-md shadow-sm px-4 py-3" >
+            <AccordionItem value="item-1">
+              <AccordionTrigger className="text-lg font-semibold text-indigo-700 hover:underline">
+                Temas y configuración.
+              </AccordionTrigger>
+              <AccordionContent className="mt-2 text-base leading-relaxed text-zinc-700">
+                Zafiro permite personalizar la apariencia mediante temas. Puedes encontrar varios temas
+                en nuestra biblioteca de temas.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-2">
+              <AccordionTrigger className="text-lg font-semibold text-indigo-700 hover:underline">
+                ¿Cómo personalizar zafiro.?
+              </AccordionTrigger>
+              <AccordionContent className="mt-2 text-base leading-relaxed text-zinc-700">
+                <p>Ejecuta el siguiente comando para crear la carpeta .zafiro en sistemas linux.</p>
+                <CodeBlock code={'mkdir .zafiro'}></CodeBlock>
+                <p>
+                  Asegurta de estar en la ruta: /home/usuario <br />
+                  Una vez creada la carpete .zafiro ingresa a ella con el siguiente comando.
+                </p>
+                <CodeBlock code={'cd ~/.zafiro'}></CodeBlock>
+                <p>
+                  Dentro de .zafirto crea un archivo llamado: <b>config.json</b> <br />
+                  Dentro de ese archivo puedes crear tus propias configuraciones o utilizar
+                  aglunas de nuestra bibilioteca.
+                </p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+
         </section>
         <section className="mb-12">
           <h2 className="text-4xl font-extrabold mb-6 text-zinc-600 border-b border-zinc-200 pb-2">

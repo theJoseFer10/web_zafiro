@@ -1,0 +1,33 @@
+{
+  "tabSize": 4,
+  "cursorVisible": 1,
+  "mouse": {
+    "enabled": true
+  },
+  "colors": {
+    "keyword": {
+      "fg": "magenta",
+      "bg": "black",
+      "attr": [
+        "bold"
+      ]
+    },
+    "string": {
+      "fg": "bright_yellow",
+      "bg": "black",
+      "attr": []
+    },
+    "comment": {
+      "fg": "dark_gray",
+      "bg": "black",
+      "attr": [
+        "italic"
+      ]
+    },
+    "default": {
+      "fg": "white",
+      "bg": "black",
+      "attr": []
+    }
+  }
+}

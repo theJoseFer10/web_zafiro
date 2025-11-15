@@ -1,6 +1,7 @@
 // NavBar.tsx
 import SideBar from "./sidebar";
 import Link from "next/link";
+import { BellPlus, FileSearch, Download, Palette } from "lucide-react";
 
 function NavBar() {
   return (
@@ -13,14 +14,21 @@ function NavBar() {
 
       {/* Sección central: Enlaces de navegación (ocultos en pantallas pequeñas) */}
       <div className="hidden md:flex items-center gap-6">
-        <Link href="/features" className="hover:text-primary transition-colors">
+        <Link href="/features" className="flex flex-row hover:text-primary transition-colors">
+          <BellPlus className="mr-1"/>
           Características
         </Link>
-        <Link href="/docs" className="hover:text-primary transition-colors">
+        <Link href="/docs" className="flex flex-row hover:text-primary transition-colors">
+          <FileSearch className="mr-1"/>
           Documentación
         </Link>
-        <Link href="/download" className="hover:text-primary transition-colors">
+        <Link href="/download" className="flex flex-row hover:text-primary transition-colors">
+          <Download className="mr-1"/>
           Descargar
+        </Link>
+        <Link href="/themes" className="flex flex-row hover:text-primary transition-colors">
+          <Palette className="mr-1"/>
+          Temas
         </Link>
       </div>
 
