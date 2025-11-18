@@ -26,7 +26,7 @@ const DOWNLOADS = [
     title: ".deb",
     description: "Paquete para Debian / Ubuntu.",
     link:
-      "https://github.com/theJoseFer10/sources_editor/releases/download/Release_Debian_1.0.0.1/zafiro.deb",
+      "https://github.com/theJoseFer10/sources_editor/releases/download/New_Relese_Debian/zafiro.deb",
     icon: Package,
     variant: "primary",
   },
