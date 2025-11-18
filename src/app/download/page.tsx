@@ -17,7 +17,7 @@ const DOWNLOADS = [
     title: ".pkg.tar.zst",
     description: "Paquete para Arch Linux / Manjaro.",
     link:
-      "https://github.com/theJoseFer10/sources_editor/releases/download/New_Release/zafiro-1.0.1-1-any.pkg.tar.zst",
+      "https://github.com/theJoseFer10/sources_editor/releases/download/New_Release/zafiro-1.0.1.2-1-any.pkg.tar.zst",
     icon: Download,
     variant: "primary",
   },
