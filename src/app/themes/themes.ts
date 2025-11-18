@@ -49,12 +49,12 @@ export const zafiroMonokaiTheme =
       ]
     },
     "string": {
-      "fg": "bright_yellow",
+      "fg": "yellow",
       "bg": "black",
       "attr": []
     },
     "comment": {
-      "fg": "dark_gray",
+      "fg": "gray",
       "bg": "black",
       "attr": [
         "italic"
@@ -112,7 +112,7 @@ export const zafiro_vimGruvBoxTheme =
   },
   "colors": {
     "keyword": {
-      "fg": "bright_red",
+      "fg": "red",
       "bg": "black",
       "attr": [
         "bold"
@@ -124,12 +124,12 @@ export const zafiro_vimGruvBoxTheme =
       "attr": []
     },
     "comment": {
-      "fg": "dark_yellow",
+      "fg": "yellow",
       "bg": "black",
       "attr": []
     },
     "default": {
-      "fg": "bright_white",
+      "fg": "white",
       "bg": "black",
       "attr": []
     }

@@ -13,12 +13,12 @@
       ]
     },
     "string": {
-      "fg": "bright_yellow",
+      "fg": "yellow",
       "bg": "black",
       "attr": []
     },
     "comment": {
-      "fg": "dark_gray",
+      "fg": "gray",
       "bg": "black",
       "attr": [
         "italic"

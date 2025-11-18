@@ -6,7 +6,7 @@
   },
   "colors": {
     "keyword": {
-      "fg": "bright_red",
+      "fg": "red",
       "bg": "black",
       "attr": [
         "bold"
@@ -18,12 +18,12 @@
       "attr": []
     },
     "comment": {
-      "fg": "dark_yellow",
+      "fg": "yellow",
       "bg": "black",
       "attr": []
     },
     "default": {
-      "fg": "bright_white",
+      "fg": "white",
       "bg": "black",
       "attr": []
     }
